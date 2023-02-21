@@ -11,10 +11,10 @@ function render(leads){
     
     for (let i = 0; i < leads.length; i++){
      
-    //    listItems += "<li><a target='_blank' href= '"+ MyLeads[i] +"' >"+MyLeads[i]+"</li> "
-    listItems += `<li>
-    <a target='_blank' href= '${leads[i]}' >${leads[i]}</a>
+   
+    listItems += `<li><a target='_blank' href= '${leads[i]}' >${leads[i]}</a>
     </li>`
+    
        
     }
     
